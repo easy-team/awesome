@@ -1,0 +1,56 @@
+{
+  "name": "easywebpack-react-boilerplate",
+  "version": "0.1.1",
+  "description": "react client render boilerplate for easywebpack-react",
+  "keywords": [
+    "webpack",
+    "easywebpack",
+    "react"
+  ],
+  "dependencies": {
+    "easywebpack-react": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.0.0",
+    "cross-env": "^5.0.1",
+    "eslint": "^3.19.0",
+    "eslint-config-eslint": "^4.0.0",
+    "eslint-plugin-react": "^7.1.0",
+    "mocha": "^3.4.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "cross-env easywebpack server",
+    "build": "cross-env easywebpack build prod",
+    "kill": "kill -9 $(lsof -i:9000 |grep 'node'|awk '{print $2}') ",
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "mocha test",
+    "ci": "npm run lint && npm run cov"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "tool"
+  ],
+  "ci": {
+    "version": "6, 7, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubcarl/easywebpack-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubcarl/easywebpack-react/issues"
+  },
+  "homepage": "https://github.com/hubcarl/easywebpack-react#readme",
+  "author": "hubcarl@126.com",
+  "license": "MIT"
+}

@@ -1,0 +1,73 @@
+{
+  "name": "easywebpack-vue-build-script",
+  "version": "0.1.0",
+  "description": "vue webpack build script template for easywebpack",
+  "keywords": [
+    "webpack",
+    "easywebpack",
+    "vue"
+  ],
+  "dependencies": {
+    "easywebpack-vue": "^0.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "eslint": "^3.18.0",
+    "eslint-config-eslint": "^4.0.0",
+    "mocha": "^3.4.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "mocha test",
+    "ci": "npm run lint && npm run cov",
+    "ii": "npm install --registry https://registry.npm.taobao.org"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "tool"
+  ],
+  "ci": {
+    "version": "6, 7, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubcarl/easywebpack-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubcarl/easywebpack-vue/issues"
+  },
+  "homepage": "https://github.com/hubcarl/easywebpack-vue#readme",
+  "author": {
+    "name": "hubcarl@126.com"
+  },
+  "license": "MIT",
+  "_id": "easywebpack-vue-build-script@0.1.0",
+  "_shasum": "9d3cce2b22bc59ea1aa38778a5c563b75754629e",
+  "_from": ".",
+  "_npmVersion": "3.10.10",
+  "_nodeVersion": "6.11.1",
+  "_npmUser": {
+    "name": "hubcarl",
+    "email": "hubcarl@126.com"
+  },
+  "dist": {
+    "shasum": "9d3cce2b22bc59ea1aa38778a5c563b75754629e",
+    "tarball": "https://registry.npmjs.org/easywebpack-vue-build-script/-/easywebpack-vue-build-script-0.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "hubcarl",
+      "email": "hubcarl@126.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/easywebpack-vue-build-script-0.1.0.tgz_1501584883337_0.71280417451635"
+  },
+  "directories": {}
+}
