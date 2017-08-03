@@ -1,13 +1,15 @@
 {
   "name": "easywebpack-cli-template",
-  "version": "0.1.0",
-  "description": "easywebpack-cli template and ",
+  "version": "1.0.0",
+  "description": "easywebpack-cli build script template and boilerplate, you can use easywebpack-cli plugin init",
   "keywords": [
     "webpack",
     "easywebpack",
-    "vue",
-    "weex",
-    "react"
+    "vue-server-side-render",
+    "vue-boilerplate",
+    "weex-boilerplate",
+    "react-boilerplate",
+    "react-server-side-render"
   ],
   "dependencies": {},
   "devDependencies": {},

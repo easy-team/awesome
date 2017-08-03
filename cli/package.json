@@ -1,0 +1,43 @@
+{
+  "name": "easywebpack-cli-config",
+  "version": "0.1.1",
+  "description": "easywebpack-cli config template",
+  "keywords": [
+    "webpack",
+    "easywebpack",
+    "react",
+    "vue",
+    "weex"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "eslint": "^3.18.0",
+    "eslint-config-eslint": "^4.0.0",
+    "mocha": "^3.4.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "mocha test",
+    "ci": "npm run lint && npm run cov",
+    "ii": "npm install --registry https://registry.npm.taobao.org"
+  },
+  "ci": {
+    "version": "6, 7, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubcarl/easywebpack-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubcarl/easywebpack-cli/issues"
+  },
+  "homepage": "https://github.com/hubcarl/easywebpack-cli#readme",
+  "author": "hubcarl@126.com",
+  "license": "MIT"
+}
