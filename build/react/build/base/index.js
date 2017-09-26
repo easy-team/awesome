@@ -10,13 +10,6 @@ const WebpackBaseBuilder = WebpackBuilder => class extends WebpackBuilder {
     this.setAlias('framework', 'app/web/framework');
     this.setAlias('store', 'app/web/store');
     this.setAlias('app', 'app/web/framework/vue/app.js');
-    this.setStyleLoaderOption({
-      sass: {
-        options: {
-          includePaths: [path.join(this.config.baseDir, 'app/web/asset/style')]
-        }
-      }
-    });
   }
 };
 module.exports = WebpackBaseBuilder;

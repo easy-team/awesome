@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-cli-template",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "easywebpack-cli build script template and boilerplate, you can use easywebpack-cli plugin init",
   "keywords": [
     "webpack",

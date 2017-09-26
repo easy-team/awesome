@@ -1,15 +1,12 @@
 'use strict';
-const path = require('path');
 module.exports = {
   type: 'client',
   framework: 'vue',
-  commonsChunk: ['vendor'],
-  manifest:false,
+  manifest: false,
   entry: {
     include: 'page',
     exclude: ['page/test'],
-    template: 'view/layout.html',
-    html: true
+    template: 'view/layout.html'
   },
   alias: {
     asset: 'asset',
@@ -19,7 +16,13 @@ module.exports = {
     framework: 'framework',
     store: 'store'
   },
+  options: {},
+  loaders: {},
+  plugins: {},
   create() {
     // call api custom config
+  },
+  done(){
+
   }
 };

@@ -1,10 +1,10 @@
 'use strict';
 module.exports = {
-  framework: 'vue',
-  commonsChunk: ['vendor'],
+  framework: 'weex',
   entry: {
     include: 'page',
-    exclude: ['page/test']
+    exclude: ['page/html'],
+    template: 'view/layout.html'
   },
   alias: {
     asset: 'asset',
@@ -13,9 +13,19 @@ module.exports = {
     framework: 'framework',
     store: 'store'
   },
-  packs: {
-  },
+  options: {},
+  loaders: {},
+  plugins: {},
   create() {
+    // call api custom config
+  },
+  onWeb(){
+    this.addEntry('vendor', [path.join(this.config.baseDir, 'framework/weex/web.js')]);
+  },
+  onWeex(){
+
+  },
+  done(){
 
   }
 };

@@ -1,5 +1,4 @@
 'use strict';
-const path = require('path');
 module.exports = {
   framework: 'weex',
   entry: {
@@ -14,9 +13,19 @@ module.exports = {
     framework: 'framework',
     store: 'store'
   },
+  options: {},
+  loaders: {},
+  plugins: {},
   create() {
-    if (this.type === 'web') {
-      this.addEntry('vendor', [path.join(this.config.baseDir, 'framework/weex/web.js')]);
-    }
+    // call api custom config
+  },
+  onWeb(){
+    this.addEntry('vendor', [path.join(this.config.baseDir, 'framework/weex/web.js')]);
+  },
+  onWeex(){
+
+  },
+  done(){
+
   }
 };
