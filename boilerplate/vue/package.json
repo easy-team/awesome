@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-vue-boilerplate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "vue client render boilerplate for easywebpack-vue",
   "keywords": [
     "webpack",
@@ -41,11 +41,6 @@
     "ci": "npm run lint && npm run cov",
     "ii": "npm install --registry https://registry.npm.taobao.org"
   },
-  "files": [
-    "index.js",
-    "lib",
-    "tool"
-  ],
   "ci": {
     "version": "6, 7, 8"
   },

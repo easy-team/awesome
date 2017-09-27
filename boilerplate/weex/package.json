@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-weex-boilerplate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "weex native and web build boilerplate",
   "scripts": {
     "build": "cross-env easywebpack build",

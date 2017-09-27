@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-react-boilerplate",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "react client render boilerplate for easywebpack-react",
   "keywords": [
     "webpack",
@@ -35,11 +35,6 @@
     "test": "mocha test",
     "ci": "npm run lint && npm run cov"
   },
-  "files": [
-    "index.js",
-    "lib",
-    "tool"
-  ],
   "ci": {
     "version": "6, 7, 8"
   },
