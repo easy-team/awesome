@@ -8,20 +8,32 @@
     "react"
   ],
   "dependencies": {
-    "easywebpack-react": "^0.2.0"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "chai": "^4.0.0",
     "cross-env": "^5.0.1",
+    "directory-named-webpack-plugin": "^2.2.3",
+    "easywebpack-react": "^3.2.0",
     "eslint": "^3.19.0",
     "eslint-config-eslint": "^4.0.0",
     "eslint-plugin-react": "^7.1.0",
+    "html-webpack-plugin": "^2.30.1",
     "mocha": "^3.4.2",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "progress-bar-webpack-plugin": "^1.10.0",
+    "sass-loader": "^6.0.6"
   },
   "engines": {
     "node": ">=6.0.0"

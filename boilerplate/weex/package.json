@@ -17,16 +17,17 @@
     "vue": "^2.3.3",
     "vue-router": "^2.3.3",
     "vuex": "^2.3.1",
-    "vuex-router-sync": "^4.2.0",
-    "weex-vue-render": "^0.11.49"
+    "vuex-router-sync": "^4.2.0"
   },
   "devDependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-plugin-transform-object-assign": "^6.22.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-env": "^1.6.0",
     "cross-env": "^5.0.0",
-    "easywebpack-weex": "^0.8.2",
+    "easywebpack-weex": "^3.2.0",
     "eslint": "^3.18.0",
     "eslint-plugin-vue": "^2.0.1"
   },

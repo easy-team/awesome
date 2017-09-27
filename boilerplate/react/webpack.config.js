@@ -3,12 +3,11 @@ const path = require('path');
 module.exports = {
   type: 'client',
   framework: 'react',
-  manifest:false,
   entry: {
     include: 'page',
     exclude: ['page/test'],
     template: 'view/layout.html',
-    extMatch: '.jsx',
+    buildDir: 'html',
     loader: {
       client: 'framework/entry/loader.js'
     }
@@ -19,8 +18,14 @@ module.exports = {
     framework: 'framework'
   },
   options: {},
-  loaders: {},
-  plugins: {},
+  loaders: {
+    eslint: false,
+    less: false,
+    stylus: false
+  },
+  plugins: {
+    manifest: false,
+  },
   create() {
     // call api custom config
   },
