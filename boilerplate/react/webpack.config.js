@@ -17,6 +17,7 @@ module.exports = {
     component: 'component',
     framework: 'framework'
   },
+  cssExtract: true,
   options: {},
   loaders: {
     eslint: false,
@@ -24,7 +25,9 @@ module.exports = {
     stylus: false
   },
   plugins: {
+    build:false,
     manifest: false,
+    imagemini: false
   },
   create() {
     // call api custom config
