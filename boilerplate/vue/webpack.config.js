@@ -23,6 +23,7 @@ module.exports = {
     stylus: false
   },
   plugins: {
+    build: false,
     manifest: false
   },
   create() {
