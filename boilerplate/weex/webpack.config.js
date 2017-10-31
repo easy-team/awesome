@@ -4,8 +4,7 @@ module.exports = {
   entry: {
     include: 'page',
     exclude: ['page/html'],
-    template: 'view/layout.html',
-    buildDir: 'html'
+    template: 'view/layout.html'
   },
   alias: {
     asset: 'asset',
@@ -21,7 +20,6 @@ module.exports = {
     stylus: false
   },
   plugins: {
-    manifest: false
   },
   create() {
     // call api custom config

@@ -7,7 +7,6 @@ module.exports = {
     include: 'page',
     exclude: ['page/test'],
     template: 'view/layout.html',
-    buildDir: 'html',
     loader: {
       client: 'framework/entry/loader.js'
     }
@@ -25,8 +24,6 @@ module.exports = {
     stylus: false
   },
   plugins: {
-    build:false,
-    manifest: false,
     imagemini: false
   },
   create() {

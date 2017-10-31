@@ -3,14 +3,17 @@ module.exports = {
   type: 'client',
   framework: 'vue',
   entry: {
-    include: 'page',
+    include: ['page', { 'app/app': 'page/app/app.js?loader=false' }],
     exclude: ['page/test'],
     template: 'view/layout.html',
-    buildDir: 'html'
+    loader: {
+      client: 'framework/vue/entry/client-loader.js'
+    }
   },
   alias: {
-    asset: 'asset',
+    client: 'framework/vue/entry/client.js',
     app: 'framework/vue/app.js',
+    asset: 'asset',
     mocks: 'mocks',
     component: 'component',
     framework: 'framework',
@@ -23,8 +26,6 @@ module.exports = {
     stylus: false
   },
   plugins: {
-    build: false,
-    manifest: false
   },
   create() {
   },
