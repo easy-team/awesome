@@ -1,4 +1,5 @@
 'use strict';
+const path = require('path');
 module.exports = {
   framework: 'weex',
   entry: {
@@ -20,6 +21,7 @@ module.exports = {
     stylus: false
   },
   plugins: {
+    imagemini: false
   },
   create() {
     // call api custom config
