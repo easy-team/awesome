@@ -5,13 +5,9 @@ import '../component';
 
 const App = {};
 
-App.data = () => {
-  return window.__INITIAL_STATE__ || {};
-};
+App.data = () => window.__INITIAL_STATE__ || {};
 
-App.init = options => {
-  return App.client(options);
-};
+App.init = options => App.client(options);
 
 
 App.render = options => {

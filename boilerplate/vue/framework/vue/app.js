@@ -5,9 +5,7 @@ import './component';
 
 const App = {};
 
-App.init = options => {
-  return App.client(options);
-};
+App.init = options => App.client(options);
 
 
 App.client = options => {

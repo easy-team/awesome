@@ -1,15 +1,15 @@
-'use strict';
+
 module.exports = {
   type: 'client',
   framework: 'vue',
   entry: {
     include: ['page', { 'app/app': 'page/app/app.js?loader=false' }],
     exclude: ['page/test'],
-    template: 'view/layout.html',
     loader: {
       client: 'framework/vue/entry/client-loader.js'
     }
   },
+  template: 'view/layout.html',
   alias: {
     client: 'framework/vue/entry/client.js',
     app: 'framework/vue/app.js',
@@ -19,16 +19,9 @@ module.exports = {
     framework: 'framework',
     store: 'store'
   },
-  options: {},
-  loaders: {
-    eslint: false,
-    less: false,
-    stylus: false
-  },
-  plugins: {
-  },
-  create() {
-  },
+  lib: ['vue', 'vuex', 'axios'],
+  loaders: {},
+  plugins: {},
   done() {
 
   }

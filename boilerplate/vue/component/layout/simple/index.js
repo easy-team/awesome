@@ -1,4 +1,3 @@
-/* global isBrowser */
 export default {
   name: 'Layout',
   props: [ 'title', 'description', 'keywords' ],

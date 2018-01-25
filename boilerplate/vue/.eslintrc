@@ -1,18 +1,21 @@
 {
   "extends": "eslint",
   "env": {
+    "browser": true,
     "node": true,
-    "es6": true,
-    "mocha": true
+    "commonjs": true,
+    "es6": true
   },
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 6,
+    "sourceType": "module"
   },
   "rules": {
     "indent": [
       "error",
       2
     ],
+    "no-tabs": "off",
     "new-cap": "off",
     "newline-after-var": "off",
     "no-invalid-this": "off",
@@ -20,6 +23,8 @@
       "error",
       "single"
     ],
+    "no-unused-vars": "off",
+    "no-underscore-dangle": "off",
     "guard-for-in": "off",
     "no-console": "off",
     "no-undefined": "off",
@@ -33,5 +38,9 @@
       "error",
       "never"
     ]
-  }
+  },
+  "globals": {
+    "window": true
+  },
+  "parser": "babel-eslint"
 }
