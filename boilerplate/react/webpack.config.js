@@ -7,7 +7,6 @@ module.exports = {
     include: 'page',
     exclude: ['page/test'],
     template: 'view/layout.html',
-    buildDir: 'html',
     loader: {
       client: 'framework/entry/loader.js'
     }
@@ -17,6 +16,7 @@ module.exports = {
     component: 'component',
     framework: 'framework'
   },
+  cssExtract: true,
   options: {},
   loaders: {
     eslint: false,
@@ -24,7 +24,7 @@ module.exports = {
     stylus: false
   },
   plugins: {
-    manifest: false,
+    imagemini: false
   },
   create() {
     // call api custom config

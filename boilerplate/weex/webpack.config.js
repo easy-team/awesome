@@ -1,11 +1,11 @@
 'use strict';
+const path = require('path');
 module.exports = {
   framework: 'weex',
   entry: {
     include: 'page',
     exclude: ['page/html'],
-    template: 'view/layout.html',
-    buildDir: 'html'
+    template: 'view/layout.html'
   },
   alias: {
     asset: 'asset',
@@ -21,7 +21,7 @@ module.exports = {
     stylus: false
   },
   plugins: {
-    manifest: false
+    imagemini: false
   },
   create() {
     // call api custom config

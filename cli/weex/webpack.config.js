@@ -1,11 +1,9 @@
 'use strict';
+const path = require('path');
 module.exports = {
   framework: 'weex',
-  entry: {
-    include: 'page',
-    exclude: ['page/html'],
-    template: 'view/layout.html'
-  },
+  entry: './src/page',
+  template: 'view/layout.html',
   alias: {
     asset: 'asset',
     app: 'framework/vue/app.js',
@@ -13,18 +11,9 @@ module.exports = {
     framework: 'framework',
     store: 'store'
   },
-  options: {},
   loaders: {},
   plugins: {},
-  create() {
-    // call api custom config
-  },
-  onWeb(){
-    this.addEntry('vendor', [path.join(this.config.baseDir, 'framework/weex/web.js')]);
-  },
-  onWeex(){
-
-  },
+  lib: [path.join(this.config.baseDir, 'framework/weex/web.js')],
   done(){
 
   }
