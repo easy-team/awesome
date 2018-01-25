@@ -8,6 +8,8 @@
   "rules": {
     "array-bracket-spacing": "off",
     "eol-last": "off",
+    "quotes": "off",
+    "no-undef": "off",
     "no-unused-vars": [
       "error",
       {
