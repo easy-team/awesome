@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-react-boilerplate",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "react client render boilerplate for easywebpack-react",
   "keywords": [
     "webpack",
@@ -34,8 +34,8 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "start": "cross-env easywebpack server",
-    "build": "cross-env easywebpack build prod",
+    "start": "easy server",
+    "build": "easy build prod",
     "kill": "kill -9 $(lsof -i:9000 |grep 'node'|awk '{print $2}') ",
     "lint": "eslint .",
     "fix": "eslint --fix .",
