@@ -1,7 +1,6 @@
 'use strict';
-const path = require('path');
 module.exports = {
-  type: 'client',
+  target: 'web',
   framework: 'react',
   devtoo: 'source-map',
   entry: {

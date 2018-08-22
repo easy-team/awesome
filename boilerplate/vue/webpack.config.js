@@ -1,6 +1,6 @@
 
 module.exports = {
-  type: 'client',
+  target: 'web',
   framework: 'vue',
   entry: {
     include: ['page', { 'app/app': 'page/app/app.js?loader=false' }],
