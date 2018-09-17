@@ -15,7 +15,7 @@ npm i easywebpack-cli -g
 
 
 ```bash
-easywebpack init
+easy init
 ```
 
 ### 三. Use Arrow Choice The Follow Choice:

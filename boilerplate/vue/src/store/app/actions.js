@@ -4,7 +4,7 @@ import * as Type from './mutation-type';
 import Vue from 'vue';
 import Vuex from 'vuex';
 import axios from 'axios';
-import Article from 'mocks/article/list';
+import Article from '../../mocks/article/list';
 Vue.use(Vuex);
 
 const host = 'http://127.0.0.1:7001';

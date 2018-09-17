@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-vue-boilerplate",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "vue client render boilerplate for easywebpack-vue",
   "keywords": [
     "webpack",
@@ -35,8 +35,8 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "build": "cross-env easywebpack build prod",
-    "start": "cross-env easywebpack start",
+    "build": "easy build prod",
+    "start": "easy start",
     "lint": "eslint .",
     "fix": "eslint --fix .",
     "test": "mocha test",

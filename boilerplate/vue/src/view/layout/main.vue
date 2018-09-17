@@ -13,7 +13,7 @@
   a{
     text-decoration: none;
   }
-  @import "../../../asset/css/global.css";
+  @import "../../asset/css/global.css";
 </style>
 <script type="text/babel">
   import LayoutHeader from './header/header';
