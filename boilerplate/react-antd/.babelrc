@@ -1,0 +1,30 @@
+{
+  "presets": [
+    "react",
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 7"]
+      }
+    }]
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-object-assign",
+    "syntax-dynamic-import",
+    "transform-object-rest-spread",
+    ["import", {
+      "libraryName": "antd",
+      "libraryDirectory": "lib",
+      "style": true
+    }]
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    }
+  },
+  "comments": false
+}

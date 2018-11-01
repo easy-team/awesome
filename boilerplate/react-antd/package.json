@@ -1,0 +1,59 @@
+{
+  "name": "easywebpack-react-antd-boilerplate",
+  "version": "1.0.0",
+  "description": "React AntD Boilerplate",
+  "keywords": [
+    "webpack",
+    "easywebpack",
+    "react",
+    "redux",
+    "react-router",
+    "antd"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "antd": "^3.9.2",
+    "easywebpack-cli": "^4.0.0",
+    "easywebpack-react": "^4.0.0",
+    "eslint": "^4.16.0",
+    "eslint-config-eslint": "^4.0.0",
+    "eslint-plugin-react": "^7.1.0",
+    "history": "^4.7.2",
+    "imagemin-webpack-plugin": "^1.5.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2",
+    "less": "^2.7.2",
+    "less-loader": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "easy start",
+    "start": "easy start",
+    "build": "easy build prod",
+    "clean": "easy clean",
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "ii": "npm install --registry https://registry.npm.taobao.org"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubcarl/easywebpack-cli-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubcarl/easywebpack-cli-template/issues"
+  },
+  "homepage": "https://github.com/hubcarl/easywebpack-cli-template#readme",
+  "author": "hubcarl@126.com",
+  "license": "MIT"
+}
