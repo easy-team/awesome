@@ -1,43 +1,28 @@
-# easywebpack-vue-boilerplate
+# Vue-Boilerplate
 
+Vue Client Render Application
 
-#### Vue Client Render Boilerplate for [easywebpack-vue](https://github.com/hubcarl/easywebpack-vue), Please Use [easywebpack-cli](https://github.com/hubcarl/easywebpack-cli) init.
+## QuickStart
 
-
-## 一. Install cli
-
-
-```bash
-npm i easywebpack-cli -g
-```
-
-## 二. Vue Client Render Boilerplate Init
-
+- Development Mode
 
 ```bash
-easy init
+
+npm start
+
 ```
 
-### 三. Use Arrow Choice The Follow Choice:
+- Publish Mode
 
+```bash
+npm run build
+```
 
-\> create client render project boilerplate for Vue/React/Weex
+## Document
 
-\> create vue client render boilerplate
+- https://www.yuque.com/easy-team/easywebpack
+- https://github.com/easy-team
 
-\> Please input project name:<Project Name>
+## License
 
-\> Please input project description:<Project Description>
-
-
-After Step, Start Download Vue Boilerplate Template.
-
-
-### 四. Running Vue Boilerplate
-
-- Enter Project Dir
-
-- `npm install` Install Dependencies.
-
-- `npm start` Start Application.
-
+[MIT](LICENSE)
