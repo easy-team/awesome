@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-vue-boilerplate",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "vue client render boilerplate for easywebpack-vue",
   "keywords": [
     "webpack",
@@ -19,7 +19,7 @@
     "easywebpack-vue": "^4.0.0",
     "eslint": "^3.18.0",
     "eslint-config-eslint": "^4.0.0",
-    "imagemin-webpack-plugin": "^1.5.2",
+    "imagemin-webpack-plugin": "^2.0.0",
     "mocha": "^3.4.2",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6"

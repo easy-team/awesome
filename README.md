@@ -1,4 +1,4 @@
-# easywebpack-cli-template
+# easywebpack-awesome
 
 
 ### easywebpack-cli build script template and boilerplate, you can use [easywebpack-cli](https://github.com/hubcarl/easywebpack-cli) init.
@@ -33,5 +33,5 @@
 
 ### 四. server side render project boilerplate for Egg + Vue/React
 
-- [egg-vue-webpack-boilerplate](https://github.com/hubcarl/egg-vue-webpack-boilerplate)
-- [egg-react-webpack-boilerplate](https://github.com/hubcarl/egg-react-webpack-boilerplate)
+- [egg-vue-webpack-boilerplate](https://github.com/easy-team/egg-vue-webpack-boilerplate)
+- [egg-react-webpack-boilerplate](https://github.com/easy-team/egg-react-webpack-boilerplate)
