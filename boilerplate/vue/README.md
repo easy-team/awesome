@@ -1,6 +1,6 @@
 # Vue-Boilerplate
 
-Vue Client Render Application
+Vue + Vuex + Vue-Router Application
 
 ## QuickStart
 

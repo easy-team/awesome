@@ -1,9 +1,16 @@
 {
-  "presets": [["env",{ "modules": false }]],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ]
+  ],
   "plugins": [
-    "transform-object-rest-spread",
-    "syntax-dynamic-import",
-    "transform-object-assign"
+    "@babel/plugin-transform-async-to-generator",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-syntax-dynamic-import"
   ],
   "comments": false
 }
