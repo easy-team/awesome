@@ -1,6 +1,6 @@
 # React-Boilerplate
 
-React Client Render Application
+React + React-Redux + React-Router Application
 
 ## QuickStart
 

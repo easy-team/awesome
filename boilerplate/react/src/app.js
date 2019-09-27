@@ -18,8 +18,17 @@ const Entry = () => (<div>
 </div>
 );
 
-ReactDOM.render(<Entry />, document.getElementById('app'));
+
+const render = () => {
+  const root =  document.getElementById('app');
+  ReactDOM.render(<Entry />, root);
+}
 
 if (EASY_ENV_IS_DEV && module.hot) {
+  setTimeout(() => {
+    render();
+  }, 500);
   module.hot.accept();
+} else {
+  render();
 }

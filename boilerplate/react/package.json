@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-react-boilerplate",
-  "version": "4.2.1",
+  "version": "4.3.0",
   "description": "React Client Render Boilerplate",
   "keywords": [
     "webpack",
@@ -13,8 +13,8 @@
   "dependencies": {},
   "devDependencies": {
     "antd": "^3.9.2",
-    "easywebpack-cli": "^4.0.0",
-    "easywebpack-react": "^4.0.0",
+    "@easy-team/easywebpack-cli": "^4.0.0",
+    "@easy-team/easywebpack-react": "^4.0.0",
     "eslint": "^4.16.0",
     "eslint-config-eslint": "^4.0.0",
     "eslint-plugin-react": "^7.1.0",
