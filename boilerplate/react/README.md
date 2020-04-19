@@ -1,6 +1,6 @@
 # React-Boilerplate
 
-React + React-Redux + React-Router Application
+React + React-Redux + React-Router Application for Ant Design + Babel 7
 
 ## QuickStart
 

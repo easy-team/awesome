@@ -1,6 +1,6 @@
 # React-Boilerplate
 
-React + AntD Application
+React + React-Redux + React-Router for Ant Design + Babel 6
 
 ## Features
 

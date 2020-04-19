@@ -27,6 +27,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
+    "clean": "easy clean",
     "dev": "easy dev",
     "start": "easy build --server",
     "build": "easy build prod",

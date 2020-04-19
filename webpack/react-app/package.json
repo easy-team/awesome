@@ -48,8 +48,5 @@
   },
   "homepage": "https://github.com/hubcarl/easy-react-app#readme",
   "author": "hubcarl@126.com",
-  "license": "MIT",
-  "webpack": {
-    "loaders": {}
-  }
+  "license": "MIT"
 }

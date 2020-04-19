@@ -1,0 +1,16 @@
+/node_modules
+coverage/
+*.log
+npm-debug.log
+.logs/
+logs/
+/sea-modules/
+*.swp
+run/
+*-run/
+.idea/
+.DS_Store
+git-m
+*.iml
+docs/api
+zip/

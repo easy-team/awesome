@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { list, add, del } from '../../store/actions';
+import { add, del } from '../../store/actions';
 import './home.css';
 class Home extends Component {
 

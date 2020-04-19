@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Easy Common Lib Test</title>
+    <script src="http://127.0.0.1:9000/lib.js"></script>
+  </head>
+  <body>
+    <h2></h2>
+  </body>
+  <script>
+    const { createElement, formatDate } = EasyLib;
+    createElement('h2', formatDate());
+    createElement('h2', formatDate('', 'yyyy-MM-dd hh:mm'));
+    createElement('h2', formatDate('', 'yyyy-MM-dd'));
+    createElement('h2', formatDate('', 'hh:mm'));
+  </script>
+</html>
