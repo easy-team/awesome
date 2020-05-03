@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "Building Lib By Typescript",
   "main": "dist/lib.js",
-  "types": "dist/lib.d.ts",
+  "types": "src/lib.d.ts",
+  "module": "src/lib.js",
   "scripts": {
     "clean": "easy clean",
     "dev": "easy dev",
     "start": "concurrently \"npm run dev\" \"npm run server\"",
     "debug": "easy build test",
-    "build": "easy build",
+    "build": "tsc && easy build",
     "server": "easy server -p 5000 -i example/index.html"
   },
   "dependencies": {

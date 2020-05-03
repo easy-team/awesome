@@ -1,37 +1,39 @@
-# easywebpack-awesome
+# awesome
 
+easyj all examples,  include react, vue, typescript, webpack demos
 
-### easywebpack-cli build script template and boilerplate, you can use [easywebpack-cli](https://github.com/hubcarl/easywebpack-cli) init.
+### Webpack Project Examples
 
+- [webpack-react-app](webpack/react-app)
 
-### 一. easywebpack-cli webpack config for Vue/React/Weex
+### Vue/React/Weex Project Examples
 
-- [easywebpack-cli-vue](cli/vue)
+- [easywebpack-vue-app](boilerplate/vue)
 
-- [easywebpack-cli-react](cli/react)
+- [easywebpack-react-app](boilerplate/react)
 
-- [easywebpack-cli-weex](cli/weex)
+- [easywebpack-weex-app](boilerplate/weex)
 
-
-### 二. easywebpack build script for Vue/React/Weex
-
-
-- [vue-build-script](build/vue)
-
-- [react-build-script](build/react)
-
-- [weex-build-script](build/weex)
-
-
-### 三. client render project boilerplate for Vue/React/Weex
-
-- [vue-client-render-boilerplate](boilerplate/vue)
-
-- [react-client-render-boilerplate](boilerplate/react)
-
-- [weex-native-web-boilerplate](boilerplate/weex)
-
-### 四. server side render project boilerplate for Egg + Vue/React
+### Egg + Vue/React SSR/CSR Project Examples
 
 - [egg-vue-webpack-boilerplate](https://github.com/easy-team/egg-vue-webpack-boilerplate)
 - [egg-react-webpack-boilerplate](https://github.com/easy-team/egg-react-webpack-boilerplate)
+- [egg-vue-typescript-boilerplate](https://github.com/easy-team/egg-vue-typescript-boilerplate)
+- [egg-react-typescript-boilerplate](https://github.com/easy-team/egg-react-typescript-boilerplate)
+
+### Build Common Lib Examples
+
+- [react-component-lib](lib/react-component)
+- [typescript-common-lib](lib/typescript)
+
+### Webpack Config Examples
+
+- [easywebpack-cli-vue-config](cli/vue)
+
+- [easywebpack-cli-react-config](cli/react)
+
+- [easywebpack-cli-weex-config](cli/weex)
+
+### easywebpack-cli
+
+You can use [easywebpack-cli](https://github.com/easy-team/easywebpack-cli) init project.

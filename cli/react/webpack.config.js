@@ -1,18 +1,16 @@
 'use strict';
 module.exports = {
-  type: 'client',
+  target: 'web',
   framework: 'react',
   devtool: 'source-map',
-  entry: './src/page',
-  template: 'view/layout.html',
-  alias: {
-    asset: 'asset',
-    component: 'component',
-    framework: 'framework'
+  entry:  {
+    index: 'src/index.js'
   },
-  loaders: {},
-  plugins: {},
-  done(){
-
+  resolve: {
+    alias: {
+      asset: 'asset',
+      component: 'component',
+      framework: 'framework'
+    }  
   }
 };

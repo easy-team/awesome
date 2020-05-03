@@ -3,8 +3,8 @@
     "declaration": true,
     "target": "es5",
     "module": "esnext",
-    "sourceMap": true,
-    "outDir": "./dist",
+    "sourceMap": false,
+    "outDir": "./src",
     "lib": [
       "es6",
       "dom",
