@@ -2,12 +2,12 @@
 
 import React, { Component } from "react";
 
-import EasyComponentLib from 'easy-component';
+import EasyReactLib from 'easyjs-react-component-lib';
 
 export default class ReactComponentTest extends Component {
 
   componentDidMount() {
-    console.log('>>>EasyComponentLib', EasyComponentLib);
+    // console.log('>>>EasyComponentLib', EasyReactLib);
   }
 
   render() {

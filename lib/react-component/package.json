@@ -1,6 +1,6 @@
 {
-  "name": "easy-component",
-  "version": "1.0.0",
+  "name": "easyjs-react-component-lib",
+  "version": "0.0.1",
   "description": "Building React Component By Webpack",
   "main": "dist/easy.js",
   "module": "src/index.js",
@@ -21,7 +21,9 @@
     "@easy-team/easywebpack-cli": "^4.0.0",
     "@easy-team/easywebpack-js": "4.0.0",
     "eslint": "^4.5.0",
-    "eslint-config-eslint": "^4.0.0"
+    "eslint-config-eslint": "^4.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "keywords": [
     "webpack lib",
@@ -33,6 +35,16 @@
       "test/*.test.js"
     ]
   },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "babel.config.js",
+    "webpack.config.js",
+    "example/src",
+    "example/package.json",
+    "example/webpack.config.js"
+  ],
   "ci": {
     "version": "8, 10, 12"
   },

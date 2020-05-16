@@ -1,5 +1,5 @@
 {
-  "name": "easywebpack-typescript-lib",
+  "name": "easyjs-typescript-lib",
   "version": "1.0.0",
   "description": "Building Lib By Typescript",
   "main": "dist/lib.js",
@@ -34,13 +34,22 @@
       "test/*.test.js"
     ]
   },
+  "files": [
+    "dist",
+    "src",
+    ".gitignore",
+    "README.md",
+    "tsconfig.json",
+    "webpack.config.js",
+    "example/index.html"
+  ],
   "ci": {
     "version": "8, 10, 12"
   },
   "repository": {
     "type": "git",
-    "url": "git+http://github.com/easy-team/easywebpack-awesome.git"
+    "url": "git+http://github.com/easy-team/awesome.git"
   },
-  "homepage": "http://github.com/easy-team/easywebpack-awesome#readme",
+  "homepage": "http://github.com/easy-team/awesome#readme",
   "author": "hubcarl@126.com"
 }

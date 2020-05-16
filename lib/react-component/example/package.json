@@ -1,11 +1,11 @@
 {
-  "name": "easy-component-test",
+  "name": "easyjs-react-component-lib-test",
   "version": "1.0.0",
   "description": "Building React Component By Webpack",
-  "main": "dist/easy.js",
   "scripts": {
     "clean": "easy clean",
     "dev": "easy dev",
+    "start": "easy dev",
     "debug": "easy build test",
     "build": "easy build"
   },

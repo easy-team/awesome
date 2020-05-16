@@ -2,11 +2,11 @@
 
 easyj all examples,  include react, vue, typescript, webpack demos
 
-### Webpack Project Examples
+## Webpack Project Examples
 
 - [webpack-react-app](webpack/react-app)
 
-### Vue/React/Weex Project Examples
+## Vue/React/Weex Project Examples
 
 - [easywebpack-vue-app](boilerplate/vue)
 
@@ -14,19 +14,21 @@ easyj all examples,  include react, vue, typescript, webpack demos
 
 - [easywebpack-weex-app](boilerplate/weex)
 
-### Egg + Vue/React SSR/CSR Project Examples
+## Egg + Vue/React SSR/CSR Project Examples
 
 - [egg-vue-webpack-boilerplate](https://github.com/easy-team/egg-vue-webpack-boilerplate)
 - [egg-react-webpack-boilerplate](https://github.com/easy-team/egg-react-webpack-boilerplate)
 - [egg-vue-typescript-boilerplate](https://github.com/easy-team/egg-vue-typescript-boilerplate)
 - [egg-react-typescript-boilerplate](https://github.com/easy-team/egg-react-typescript-boilerplate)
 
-### Build Common Lib Examples
+## Build Common Lib Examples
 
+- [react-common-lib](lib/react-common-lib)
+- [vue-common-lib](lib/vue-common-lib)
 - [react-component-lib](lib/react-component)
 - [typescript-common-lib](lib/typescript)
 
-### Webpack Config Examples
+## Webpack Config Examples
 
 - [easywebpack-cli-vue-config](cli/vue)
 
@@ -34,6 +36,6 @@ easyj all examples,  include react, vue, typescript, webpack demos
 
 - [easywebpack-cli-weex-config](cli/weex)
 
-### easywebpack-cli
+## easywebpack-cli
 
 You can use [easywebpack-cli](https://github.com/easy-team/easywebpack-cli) init project.
