@@ -1,6 +1,6 @@
 {
   "name": "easyjs-react-component-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Building React Component By Webpack",
   "main": "dist/easy.js",
   "module": "src/index.js",
@@ -43,7 +43,8 @@
     "webpack.config.js",
     "example/src",
     "example/package.json",
-    "example/webpack.config.js"
+    "example/webpack.config.js",
+    ".gitignore"
   ],
   "ci": {
     "version": "8, 10, 12"

@@ -1,6 +1,6 @@
 {
   "name": "easyjs-vue-common-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue Project Common Lib",
   "scripts": {
     "start": "npm run build",
@@ -46,6 +46,7 @@
   "files": [
     "dist",
     "lib",
+    ".gitignore",
     "README.md",
     "babel.config.js",
     "webpack.config.js",
