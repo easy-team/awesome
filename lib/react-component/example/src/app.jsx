@@ -2,15 +2,21 @@
 
 import React, { Component } from "react";
 
-import EasyReactLib from 'easyjs-react-component-lib';
+import EasyComponentLib from 'easyjs-react-component-lib';
+
+const { Dialog, Toast } = EasyComponentLib;
+
+// import Toast from './component/toast'
+// import Dialog from './component/dialog'
 
 export default class ReactComponentTest extends Component {
 
   componentDidMount() {
-    // console.log('>>>EasyComponentLib', EasyReactLib);
+    Toast.info('React Component Toast Test');
+    Dialog.show(<h1>Dialog</h1>);
   }
 
   render() {
-    return <div>123456</div>
+    return <div>React Toast, Dialog Component Test</div>
   }
 }

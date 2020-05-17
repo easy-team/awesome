@@ -10,6 +10,7 @@
     "build": "easy build"
   },
   "dependencies": {
+    "easyjs-react-component-lib": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

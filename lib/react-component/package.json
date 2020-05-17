@@ -1,6 +1,6 @@
 {
   "name": "easyjs-react-component-lib",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Building React Component By Webpack",
   "main": "dist/easy.js",
   "module": "src/index.js",
