@@ -1,0 +1,59 @@
+{
+  "name": "@easyjs/react-typescript",
+  "version": "1.0.0",
+  "description": "React TypeScript Examples",
+  "scripts": {
+    "dev": "npm start",
+    "start": "concurrently \"easy server -d mock\" \"easy dev\"",
+    "build": "easy build",
+    "lint": "eslint . --ext .ts,tsx",
+    "fix": "eslint . --ext .ts,tsx --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{.ts,.tsx}": [
+      "eslint",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react-dom": "^16.13.1",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "@easy-team/easywebpack-cli": "^4.0.0",
+    "@easy-team/easywebpack-react": "^4.0.0",
+    "@types/node": "^13.13.5",
+    "@types/react": "^16.9.25",
+    "@types/webpack-env": "^1.15.2",
+    "@typescript-eslint/parser": "^3.4.0",
+    "concurrently": "^5.2.0",
+    "eslint": "^7.3.1",
+    "eslint-plugin-react": "^7.20.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5"
+  },
+  "ci": {
+    "version": "8, 10, 12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easy-team/awesome.git"
+  },
+  "author": "hubcarl@126.com",
+  "license": "MIT",
+  "homepage": "https://github.com/easy-team/awesome"
+}
