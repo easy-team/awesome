@@ -1,0 +1,49 @@
+{
+  "name": "easyjs-react-simple",
+  "version": "1.0.0",
+  "description": "React Client Render Boilerplate",
+  "keywords": [
+    "webpack",
+    "easywebpack",
+    "react",
+    "redux",
+    "react-router",
+    "antd"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@easy-team/easywebpack-cli": "^4.0.0",
+    "@easy-team/easywebpack-react": "^4.0.0",
+    "eslint": "^4.16.0",
+    "eslint-config-eslint": "^4.0.0",
+    "eslint-plugin-react": "^7.1.0",
+    "imagemin-webpack-plugin": "^2.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "easy start",
+    "start": "easy start",
+    "build": "easy build prod",
+    "clean": "easy clean",
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "ii": "npm install --registry https://registry.npm.taobao.org"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easy-team/awesome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/easy-team/awesome/issues"
+  },
+  "homepage": "https://github.com/easy-team/awesome#readme",
+  "author": "hubcarl@126.com",
+  "license": "MIT"
+}
