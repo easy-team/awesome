@@ -36,6 +36,19 @@ easyj all examples,  include react, vue, typescript, webpack demos
 
 - [easywebpack-cli-weex-config](cli/weex)
 
+## Code Template 
+
+- [react-component](template/react-component)
+- [react-router](template/react-router)
+- [react-store](template/react-store)
+- [vue-component](template/vue-component)
+- [vue-router](template/vue-router)
+- [vue-store](template/vue-store)
+- [babel](template/babel)
+- [eslint](template/eslint-react)
+- [tsconfig](template/tsconfig)
+
+
 ## easywebpack-cli
 
-You can use [easywebpack-cli](https://github.com/easy-team/easywebpack-cli) init project.
+You can use [easywebpack-cli](https://github.com/easy-team/easywebpack-cli) init project and code template.
