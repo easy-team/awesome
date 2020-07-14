@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-const style = {
-  textAlign: 'center'
-};
-
 function Hook() {
   const [count, setCount] = useState(0);
   // componentDidMount/componentDidUpdate:
@@ -15,7 +11,7 @@ function Hook() {
     };
   });
   return (
-    <div style={{...style}}>
+    <div>
       <p>You clicked {count}</p>
       <button onClick={() => setCount(count + 1)}>
         Click me
