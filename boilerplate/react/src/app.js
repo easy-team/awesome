@@ -23,12 +23,8 @@ const render = () => {
   const root =  document.getElementById('app');
   ReactDOM.render(<Entry />, root);
 }
+render();
 
 if (EASY_ENV_IS_DEV && module.hot) {
-  setTimeout(() => {
-    render();
-  }, 500);
   module.hot.accept();
-} else {
-  render();
 }

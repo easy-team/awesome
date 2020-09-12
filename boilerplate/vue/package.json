@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-vue-boilerplate",
-  "version": "4.3.0",
+  "version": "5.0.0-beta.1",
   "description": "vue client render boilerplate for easywebpack-vue",
   "keywords": [
     "webpack",
@@ -9,14 +9,13 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "@easy-team/easywebpack-cli": "^4.0.0",
-    "@easy-team/easywebpack-vue": "^4.0.0",
+    "easywebpack-cli": "^5.0.0-beta.1",
+    "easywebpack-vue": "^5.0.0-beta.1",
     "@babel/plugin-transform-async-to-generator": "^7.5.0",
     "axios": "^0.16.2",
     "cross-env": "^5.0.1",
     "eslint": "^3.18.0",
     "eslint-config-eslint": "^4.0.0",
-    "imagemin-webpack-plugin": "^2.0.0",
     "mocha": "^3.4.2",
     "vue": "^2.5.13",
     "vue-router": "^2.7.0",
