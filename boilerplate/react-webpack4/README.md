@@ -8,7 +8,7 @@ React + React-Redux + React-Router Application for Ant Design + Babel 7
 
 ```bash
 
-npm start
+npm dev
 
 ```
 
