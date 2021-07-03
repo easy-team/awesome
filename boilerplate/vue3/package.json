@@ -1,5 +1,5 @@
 {
-  "name": "easywebpack-vue-boilerplate",
+  "name": "easywebpack-vue3-boilerplate",
   "version": "5.0.0",
   "description": "vue client render boilerplate for easywebpack-vue",
   "keywords": [
@@ -7,20 +7,21 @@
     "easywebpack",
     "vue"
   ],
-  "dependencies": {},
   "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.5.0",
+    "@vue/compiler-sfc": "^3.1.2",
+    "axios": "^0.21.1",
+    "cross-env": "^7.0.3",
     "easywebpack-cli": "^5.0.0",
     "easywebpack-vue": "^5.0.0",
-    "@babel/plugin-transform-async-to-generator": "^7.5.0",
-    "axios": "^0.16.2",
-    "cross-env": "^5.0.1",
-    "eslint": "^3.18.0",
-    "eslint-config-eslint": "^4.0.0",
-    "mocha": "^3.4.2",
-    "vue": "^2.5.13",
-    "vue-router": "^2.7.0",
-    "vuex": "^2.3.1",
-    "vuex-router-sync": "^4.2.0"
+    "eslint": "^7.29.0",
+    "eslint-config-eslint": "^7.0.0",
+    "mocha": "^9.0.1",
+    "vue": "^3.0.0",
+    "vue-loader": "^16.3.0",
+    "vue-router": "^4.0.0",
+    "vuex": "^4.0.0",
+    "vuex-router-sync": "next"
   },
   "engines": {
     "node": ">=8.0.0"
