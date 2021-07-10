@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 
 
 import * as Type from './mutation-type';
@@ -10,7 +11,6 @@ Vue.use(Vuex);
 const host = 'http://127.0.0.1:7001';
 
 const actions = {
-
   FETCH_ARTICLE_LIST: ({ commit, dispatch, state }) => {
     if (!state.articleList.length) {
 

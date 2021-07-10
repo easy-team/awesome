@@ -8,14 +8,12 @@
     "vue"
   ],
   "devDependencies": {
-    "@babel/plugin-transform-async-to-generator": "^7.5.0",
     "@vue/compiler-sfc": "^3.1.2",
     "axios": "^0.21.1",
     "cross-env": "^7.0.3",
     "easywebpack-cli": "^5.0.0",
-    "easywebpack-vue": "^5.0.0",
+    "easywebpack-vue": "^5.1.1",
     "eslint": "^7.29.0",
-    "eslint-config-eslint": "^7.0.0",
     "mocha": "^9.0.1",
     "vue": "^3.0.0",
     "vue-loader": "^16.3.0",
@@ -38,7 +36,7 @@
     "ii": "npm install --registry https://registry.npm.taobao.org"
   },
   "ci": {
-    "version": "8, 10"
+    "version": "12, 14"
   },
   "repository": {
     "type": "git",

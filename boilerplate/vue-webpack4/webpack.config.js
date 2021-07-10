@@ -4,5 +4,8 @@ module.exports = {
   framework: 'vue',
   entry: {
     index: 'src/app.js'
-  }
+  },
+  plugins:[
+    { imagemini: false } 
+  ]
 };
