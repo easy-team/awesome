@@ -1,14 +1,11 @@
 
 
 import * as Type from './mutation-type';
-import axios from 'axios';
 import Article from '../../mocks/article/list';
-
-const host = 'http://127.0.0.1:7001';
 
 const actions = {
 
-  FETCH_ARTICLE_LIST: ({ commit, dispatch, state }) => {
+  FETCH_ARTICLE_LIST: ({ commit, state }) => {
     if (!state.articleList.length) {
 
       // return axios.get(`${host}/app/api/article/list`)
@@ -24,7 +21,7 @@ const actions = {
     return Promise.resolve();
   },
 
-  FETCH_ARTICLE_DETAIL: ({ commit, dispatch, state }, { id }) => {
+  FETCH_ARTICLE_DETAIL: ({ commit, state }, { id }) => {
     if (state.article.id !== id) {
       return Promise.resolve(Article.getDetail(id)).then(data => {
         console.log('>>>>SET_ARTICLE_DETAIL data', id, data);
