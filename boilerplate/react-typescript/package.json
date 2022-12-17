@@ -3,7 +3,8 @@
   "version": "1.1.0",
   "description": "React TypeScript Examples",
   "scripts": {
-    "dev": "npm start",
+    "dev": "easy dev",
+    "mock": "easy server -d mock",
     "start": "concurrently \"easy server -d mock\" \"easy dev\"",
     "build": "easy build",
     "lint": "eslint . --ext .ts,tsx",
