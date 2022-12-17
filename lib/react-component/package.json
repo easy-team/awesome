@@ -1,6 +1,6 @@
 {
   "name": "easyjs-react-component-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Building React Component By Webpack",
   "main": "dist/easy.js",
   "module": "src/index.js",
@@ -54,5 +54,9 @@
     "url": "git+http://github.com/easy-team/easywebpack-awesome.git"
   },
   "homepage": "http://github.com/easy-team/easywebpack-awesome#readme",
-  "author": "hubcarl@126.com"
+  "author": "hubcarl@126.com",
+  "dependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.20.5"
+  }
 }

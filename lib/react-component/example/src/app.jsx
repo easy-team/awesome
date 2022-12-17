@@ -2,9 +2,16 @@
 
 import React, { Component } from "react";
 
-import EasyComponentLib from 'easyjs-react-component-lib';
+// export { Dialog, Toast }
+import { Dialog, Toast } from 'easyjs-react-component-lib';
+// import * as EasyComponentLib from 'easyjs-react-component-lib';
 
-const { Dialog, Toast } = EasyComponentLib;
+
+//  export default { Dialog, Toast }
+// import EasyComponentLib from 'easyjs-react-component-lib';
+// const { Dialog, Toast } = EasyComponentLib;
+
+// console.log('>>>EasyComponentLib', EasyComponentLib);
 
 // import Toast from './component/toast'
 // import Dialog from './component/dialog'
