@@ -9,7 +9,7 @@ module.exports = {
     index: './src/index.tsx'
   },
   resolve: {
-    alias:{
+    alias: {
       '@asset': resolve('src/asset'),
       '@component': resolve('src/component'),
       '@lib': resolve('src/lib'),
@@ -19,7 +19,7 @@ module.exports = {
     }
   },
   module: {
-    rules:[
+    rules: [
       {
         typescript: true
       }
@@ -31,7 +31,7 @@ module.exports = {
         changeOrigin: true,
         // 本地开发使用 mock 服务，部署时，请在代码加上 host 请求
         target: 'http://127.0.0.1:8888',
-        pathRewrite: {'/api' : '/api'}
+        pathRewrite: { '/api': '/api' }
       }
     }
   }
