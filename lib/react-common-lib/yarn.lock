@@ -867,8 +867,8 @@
     to-fast-properties "^2.0.0"
 
 "@easy-team/easywebpack-cli@^4.0.0":
-  version "4.4.2"
-  resolved "https://registry.npm.taobao.org/@easy-team/easywebpack-cli/download/@easy-team/easywebpack-cli-4.4.2.tgz#1d46e84931bcf10efa4355a8d283f61f2fad232f"
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@easy-team/easywebpack-cli/-/easywebpack-cli-4.5.2.tgz#d6e3cb06031f05bca07e4eeddc921f3fe12c22ee"
   dependencies:
     archive-tool "^1.0.0"
     babel-upgrade "^1.0.1"
