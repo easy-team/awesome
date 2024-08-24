@@ -1,0 +1,26 @@
+.easy-toast {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+.easy-toast-text {
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  text-align: center;
+  color: white;
+  display: flex;
+  /* max-width: 10rem; */
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 30rem;
+  background: rgba(10, 10, 10, 0.678);
+}

@@ -1,0 +1,65 @@
+{
+  "name": "easyjs-react-component-typescript",
+  "version": "1.1.0",
+  "description": "Building React Component By Webpack",
+  "main": "dist/easy.js",
+  "module": "src/index.js",
+  "scripts": {
+    "clean": "easy clean",
+    "dev": "easy dev",
+    "start": "concurrently \"npm run dev\" \"npm run server\"",
+    "debug": "easy build test",
+    "build": "easy build",
+    "server": "easy server -p 5000 -i example/index.html",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-react": "^7.9.4",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.20.5",
+    "@types/react-dom": "^16",
+    "concurrently": "^8.2.2",
+    "typescript": "^4",
+    "easywebpack-cli": "^5.0.0",
+    "easywebpack-js": "^5.0.0-beta.1",
+    "eslint": "^4.5.0",
+    "eslint-config-eslint": "^4.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "keywords": [
+    "webpack lib",
+    "typescript lib"
+  ],
+  "nyc": {
+    "exclude": [
+      "**/*.spec.js",
+      "test/*.test.js"
+    ]
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "babel.config.js",
+    "webpack.config.js",
+    "example/src",
+    "example/package.json",
+    "example/webpack.config.js",
+    ".gitignore"
+  ],
+  "ci": {
+    "version": "16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://github.com/easy-team/easywebpack-awesome.git"
+  },
+  "homepage": "http://github.com/easy-team/easywebpack-awesome#readme",
+  "author": "hubcarl@126.com"
+}
