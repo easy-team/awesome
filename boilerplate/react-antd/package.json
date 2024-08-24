@@ -41,7 +41,7 @@
     "clean": "easy clean",
     "lint": "eslint .",
     "fix": "eslint --fix .",
-    "ii": "npm install --registry https://registry.npm.taobao.org"
+    "ii": "npm install --registry https://registry.npmmirror.com"
   },
   "ci": {
     "version": "8"

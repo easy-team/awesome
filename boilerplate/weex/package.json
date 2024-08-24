@@ -8,7 +8,7 @@
     "weex": "npm start",
     "lint": "eslint .",
     "fix": "eslint --fix .",
-    "ii": "npm install --registry https://registry.npm.taobao.org"
+    "ii": "npm install --registry https://registry.npmmirror.com"
   },
   "dependencies": {
     "extend": "^3.0.0",
