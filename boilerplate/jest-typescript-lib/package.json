@@ -53,6 +53,10 @@
     "type": "git",
     "url": "git+http://github.com/easy-team/easywebpack-awesome.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "homepage": "https://github.com/easy-team/awesome",
   "author": "hubcarl",
   "license": "MIT",
